@@ -5,7 +5,7 @@
   max-width: 1170px;
   width: 100%;
   margin: 0 auto;
-  padding: 0 15px; }
+  padding: 15px; }
 
 /* ba-grid */
 .ba-row {
@@ -72,10 +72,250 @@
   text-align: justify; }
 
 /* Style.scss */
+body {
+  padding: 15px;
+  color: white; }
+
+.ba-banner {
+  min-height: 100vh; }
+
+.ba-hero {
+  background-image: url(../img/bg-hero.jpg);
+  min-height: calc(100vh - 80px); }
+  .ba-hero__middle {
+    text-align: center;
+    color: white; }
+  .ba-hero__title {
+    padding-top: 265px;
+    margin: 0;
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 48px;
+    font-weight: 700;
+    letter-spacing: 0.1em; }
+  .ba-hero__subtitle {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 22px;
+    letter-spacing: 0.31em;
+    text-transform: capitalize; }
+  .ba-hero__form {
+    width: 650px;
+    display: flex;
+    margin: 0 auto; }
+  .ba-hero__input {
+    border: none;
+    flex-grow: 1;
+    height: 60px;
+    margin: 0;
+    outline: none;
+    -webkit-appearance: none;
+    vertical-align: top;
+    color: #c2c2c2;
+    font-size: 14px;
+    letter-spacing: 0.2em;
+    padding: 0  0 0; }
+  .ba-hero__btn {
+    border: none;
+    margin: 0;
+    width: 146px;
+    height: 60px;
+    padding: 0;
+    font-family: 'Aleo', serif;
+    font-size: 18px;
+    text-transform: uppercase;
+    line-height: 30px;
+    color: white;
+    background-color: #5474fd;
+    cursor: pointer; }
+  .ba-hero ::placeholder {
+    font-family: 'Josefin Sans', sans-serif;
+    text-align: center;
+    text-transform: capitalize; }
+  .ba-hero__scroll {
+    padding-top: 120px; }
+  .ba-hero__link {
+    font-family: 'Josefin Sans', sans-serif;
+    text-decoration: none;
+    color: white;
+    margin-top: 120px;
+    letter-spacing: 0.2em;
+    font-size: 14px; }
+
+.ba-header {
+  background-color: #5474fd; }
+
+.ba-header__wrapper {
+  display: flex;
+  justify-content: space-between; }
+
 .ba-menu {
   display: flex;
   align-items: center; }
+  .ba-menu__item {
+    list-style: none;
+    margin-left: 40px; }
+
+.ba-logo {
+  text-decoration: none;
+  color: #ffffff;
+  font-size: 24px;
+  font-family: 'Josefin Sans', sans-serif;
+  font-weight: 700;
+  text-transform: uppercase;
+  letter-spacing: 0.1em;
+  margin-top: 12px; }
 
 .ba-menu__link {
-  color: inherit;
-  text-decoration: none; }
+  color: white;
+  text-decoration: none;
+  font-family: 'Aleo', serif;
+  font-size: 14px;
+  font-weight: 400;
+  text-transform: uppercase; }
+
+.ba-about {
+  background-image: url(../img/ba-about-bg.jpg); }
+  .ba-about__wrapper {
+    display: flex;
+    padding-top: 120px;
+    padding-bottom: 120px; }
+  .ba-about__text {
+    margin-right: 15px; }
+  .ba-about__title {
+    font-family: 'Aleo', serif;
+    font-size: 36px;
+    margin-top: 40px; }
+  .ba-about__paragraph {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.1em; }
+  .ba-about__photoes {
+    margin-left: 80px; }
+  .ba-about__img2 {
+    margin-left: 125px; }
+
+.ba-btn {
+  width: 225px;
+  height: 60px;
+  border: none;
+  font-family: 'Aleo', serif;
+  margin-top: 50px;
+  background: -webkit-linear-gradient(45deg, #486afe 0%, #486afe 30%, #5474fd 32%, #5473fd 100%);
+  padding: 24px 40px;
+  font-size: 16px;
+  text-transform: uppercase;
+  color: white;
+  background-color: #5474fd;
+  cursor: pointer; }
+
+.ba-icons {
+  background-color: #333333;
+  position: relative; }
+  .ba-icons__wrapper {
+    display: flex;
+    justify-content: space-around;
+    padding: 100px 0px; }
+  .ba-icons__info {
+    font-family: 'Aleo', serif;
+    text-align: center;
+    font-size: 36px;
+    text-transform: capitalize;
+    margin: 0; }
+  .ba-icons-shape {
+    position: absolute;
+    left: 155px;
+    top: 43px; }
+  .ba-icons__text {
+    margin: 0; }
+
+.ba-booking {
+  background-image: url(../img/booking1.jpg);
+  background-size: cover; }
+  .ba-booking-page {
+    display: flex; }
+  .ba-booking-block {
+    width: 540px;
+    background-color: rgba(44, 38, 40, 0.7);
+    margin-top: 230px;
+    padding: 25px;
+    margin-right: 15px;
+    margin-bottom: 100px; }
+  .ba-booking__subtitle {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 20px;
+    letter-spacing: 0.075em;
+    text-transform: capitalize;
+    font-weight: 400;
+    opacity: 1; }
+  .ba-booking__title {
+    font-family: 'Josefin Sans', sans-serif;
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: 400; }
+  .ba-booking__text {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px; }
+  .ba-booking .ba-booking-block .ba-btn {
+    margin-bottom: 50px; }
+
+.rigth-side {
+  background-image: url(../img/booking2.jpg);
+  background-size: cover; }
+
+.rigth-side .ba-booking-block {
+  margin-left: 570px; }
+
+.ba-tourist {
+  background-image: url(../img/tourist-bg.jpg);
+  background-size: cover; }
+  .ba-tourist__wrapper {
+    text-align: center; }
+  .ba-tourist__title {
+    font-family: 'Aleo', serif;
+    font-size: 36px;
+    text-transform: capitalize;
+    margin: 0;
+    padding-top: 120px;
+    padding-bottom: 100px; }
+  .ba-tourist__commend {
+    display: flex;
+    padding-bottom: 200px; }
+  .ba-tourist__text {
+    background-color: #333333;
+    padding: 60px;
+    text-align: left; }
+    .ba-tourist__text-subtitle {
+      margin-bottom: 50px;
+      font-family: 'Josefin Sans', sans-serif;
+      text-transform: uppercase;
+      font-size: 20px; }
+    .ba-tourist__text-paragraph {
+      font-family: 'Josefin Sans', sans-serif;
+      font-size: 14px; }
+
+.ba-footer {
+  background-color: #232323; }
+  .ba-footer__wrapper {
+    text-align: center;
+    margin-top: 120px;
+    margin-bottom: 50px; }
+  .ba-footer__title {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 24px;
+    font-weight: 700;
+    letter-spacing: 0.14em;
+    text-transform: uppercase; }
+  .ba-footer__subtitle {
+    font-family: 'Josefin Sans', sans-serif;
+    font-size: 16px;
+    letter-spacing: 0.1em; }
+  .ba-footer__social {
+    padding-left: 0; }
+  .ba-footer__item {
+    display: inline;
+    list-style: none; }
+
+.ba-footer__link-img {
+  transition: .2s; }
+
+.ba-footer__link-img:hover {
+  color: #5474fd; }

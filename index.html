@@ -1,55 +1,240 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
-    <title>Ba-starter</title>
+    <title>Travel More</title>
 
     <link rel="stylesheet" href="styles/normalize.css">
     <link rel="stylesheet" href="styles/app.css">
     <link rel="icon" href="favicon.ico">
+    <script src="https://kit.fontawesome.com/f15b6a0246.js" crossorigin="anonymous"></script>
+    <link href="https://fonts.googleapis.com/css?family=Aleo:300,400,700|Josefin+Sans:300,400,700&display=swap" rel="stylesheet">
 </head>
+
 <body>
+    <div class="ba-banner">
+        <section class="ba-hero">
+            <div class="container">
+                <div class="ba-hero__middle">
+                    <h1 class="ba-hero__title">
+                        BHROMAON
+                    </h1>
+                    <p class="ba-hero__subtitle">
+                        Safe travel anywhere
+                    </p>
+                    <form action="#" class="ba-hero__form">
+                        <input type="search" class="ba-hero__input" placeholder="search yout travel destination">
+                        <button type="submit" class="ba-hero__btn">
+                            SEARCH
+                            <i class="fas fa-search"></i>
+                        </button>
+                    </form>
+                    <div class="ba-hero__scroll">
+                        <a href="#about" class="ba-hero__link">Scroll Down
+                            <!-- Тут должно быть SVG -->
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </section>
+        <header class="ba-header">
+            <div class="container">
+                <div class="ba-header__wrapper">
+                    <a href="#" class="ba-logo">BHROMAON</a>
 
-    <header class="ba-header">
-        <div class="container">
+                    <nav>
+                        <ul class="ba-menu">
+                            <li class="ba-menu__item">
+                                <a href="#" class="ba-menu__link">Who we are</a>
+                            </li>
+                            <li class="ba-menu__item">
+                                <a href="#" class="ba-menu__link">what we do</a>
+                            </li>
+                            <li class="ba-menu__item">
+                                <a href="#" class="ba-menu__link">travel with us</a>
+                            </li>
+                            <li class="ba-menu__item">
+                                <a href="#" class="ba-menu__link">contact us</a>
+                            </li>
 
-            <a href="#" class="ba-logo"></a>
-
-            <nav>
-                <ul class="ba-menu">
-                    <li class="ba-menu__item">
-                        <a href="#" class="ba-menu__link">item</a>
-                    </li>
-                    <li class="ba-menu__item">
-                        <a href="#" class="ba-menu__link">item</a>
-                    </li>
-                    <li class="ba-menu__item">
-                        <a href="#" class="ba-menu__link">item</a>
-                    </li>
-                    <li class="ba-menu__item">
-                        <a href="#" class="ba-menu__link">item</a>
-                    </li>
-                </ul>
-            </nav>
-
-        </div>
-    </header>
+                        </ul>
+                    </nav>
+                </div>
+            </div>
+        </header>
+    </div>
 
     <main>
-        <section class="ba-section">
-            <div class="container">
+        <section class="ba-section ba-about">
+            <div class="container ba-about__wrapper">
+                <div class="ba-about__text">
+                    <h2 class="ba-about__title">
+                        Why choose us
+                    </h2>
+                    <p class="ba-about__paragraph">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque ex corrupti delectus
+                        voluptatum, asperiores vero illum id incidunt obcaecati adipisci vero illum id incidunt
+                        obcaecati adipisci.
+                    </p>
+                    <p class="ba-about__paragraph">
+                        Lorem, ipsum dolor sit amet consectetur adipisicing elit. Itaque ex corrupti delectus
+                        voluptatum, asperiores vero illum id incidunt obcaecati adipisci vero illum id incidunt
+                        obcaecati adipisci.
+                    </p>
+                    <button class="ba-btn">Explore places</button>
+                </div>
+                <div class="ba-about__photoes">
+                    <img src="img/ba-about-image1.jpg" alt="photo1" class="ba-about__img1">
+                    <img src="img/ba-about-image2.jpg" alt="photo2" class="ba-about__img2">
+                </div>
+            </div>
+        </section>
 
+        <section class="ba-section ba-icons">
+            
+            <div class="ba-container ba-icons__wrapper">
+                <div class="ba-icons__info">
+                    <img src="img/search.png" alt="" class="ba-icons__icon">
+                    <p class="ba-icons__text">
+                        search places
+                    </p>
+                </div>
+                <div class="ba-icons__info">
+
+                    <img src="img/done.png" alt="done" class="ba-icons__icon">
+                    <p class="ba-icons__text">
+                        select places
+                    </p>
+                </div>
+                <div class="ba-icons__info">
+                    <img src="img/like.png" alt="like" class="ba-icons__icon">
+                    <p class="ba-icons__text">
+                        book & enjoy
+                    </p>
+                </div>
+            </div>
+        </section>
+
+        <section class="ba-section ba-booking">
+            <div class="container">
+                <div class="ba-booking-page">
+                    <div class="ba-booking-block">
+                        <h3 class="ba-booking__subtitle">
+                            spain
+                        </h3>
+                        <h2 class="ba-booking__title">
+                            grand spain madrid
+                        </h2>
+                        <p class="ba-booking__text">
+                            But I must explain to you how all this mistaken idea of account to denouncing pleasure and
+                            praising pain was account born and I account will give you a complete account of the system
+                        </p>
+                        <button class="ba-btn">
+                            book now
+                        </button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="ba-section ba-booking rigth-side">
+                <div class="container">
+                    <div class="ba-booking-page">
+                        <div class="ba-booking-block">
+                            <h3 class="ba-booking__subtitle">
+                                spain
+                            </h3>
+                            <h2 class="ba-booking__title">
+                                grand spain madrid
+                            </h2>
+                            <p class="ba-booking__text">
+                                But I must explain to you how all this mistaken idea of account to denouncing pleasure and
+                                praising pain was account born and I account will give you a complete account of the system
+                            </p>
+                            <button class="ba-btn">
+                                book now
+                            </button>
+                        </div>
+                    </div>
+                </div>
+            </section>
+
+        <section class="ba-section ba-tourist">
+            <div class="container">
+                <div class="ba-tourist__wrapper">
+                    <h2 class="ba-tourist__title">
+                        what our tourist say
+                    </h2>
+
+                    <div class="ba-tourist__commend">
+                        <img src="img/tourist-img.jpg" alt="SAM" class="ba-tourist__img">
+                        <div class="ba-tourist__text">
+                            <h3 class="ba-tourist__text-subtitle">
+                                SAM sumon
+                            </h3>
+                            <p class="ba-tourist__text-paragraph">
+                                But I must explain to you how all this mistaken idea of account to denouncinpleasure and
+                                praising pain But I must explain to you how all this mistaken idea of account to nai
+                                denouncing pleasure and praising pain was account born and I account will give you a
+                                complete account of the system was account born and I account will give you a nai the
+                                complete account of the system
+                            </p>
+                        </div>
+                    </div>
+                </div>
             </div>
         </section>
     </main>
-    
+
     <footer class="ba-footer">
         <div class="container">
-            
+            <div class="ba-footer__wrapper">
+                <h2 class="ba-footer__title">
+                    Bhromaon
+                </h2>
+                <p class="ba-footer__subtitle">
+                    safe travel anywhere
+                </p>
+                <ul class="ba-footer__social">
+                    <li class="ba-footer__item">
+                        
+                        <a href="" class="ba-footer__link">
+                            <img src="img/facebook.png" alt="facebook" class="ba-footer__link-img">
+                        </a>
+                    </li>
+                    <li class="ba-footer__item">
+                        
+                        <a href="" class="ba-footer__link">
+                            <img src="img/twitter.png" alt="twitter" class="ba-footer__link-img">
+                        </a>
+                    </li>
+                    <li class="ba-footer__item">
+                        
+                        <a href="" class="ba-footer__link">
+                            <img src="img/linkedin.png" alt="linkedin" class="ba-footer__link-img">
+                        </a>
+                    </li>
+                    <li class="ba-footer__item">
+                        
+                        <a href="" class="ba-footer__link">
+                            <img src="img/youtube.png" alt="youtube" class="ba-footer__link-img">
+                        </a>
+                    </li>
+                    <li class="ba-footer__item">
+                        
+                        <a href="" class="ba-footer__link">
+                            <img src="img/picasa.png" alt="picasa" class="ba-footer__link-img">
+                        </a>
+                    </li>
+                    
+                </ul>
+            </div>
         </div>
     </footer>
 
 </body>
+
 </html>

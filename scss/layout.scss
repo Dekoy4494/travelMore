@@ -13,7 +13,7 @@ $colWidth: 100% / $columnsCount;
     max-width: $containerWidth;
     width: 100%;
     margin: 0 auto;
-    padding: 0 $gap;
+    padding: $gap;
 }
 
 /* ba-grid */
